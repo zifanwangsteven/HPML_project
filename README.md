@@ -36,3 +36,47 @@ A walkthrough of the code sections
     * defines model pruning for CPU
 
 ### Results & Conclusions
+
+#### Preliminary Training
+
+A preliminary training with default hyper parameters are run for both models with the results exported to the folder `/training_loop`. For SCINet the average training iteration before tuning is `0.096 s/iter`, and the average inference before tuning is `0.035 s/iter`. For DLinear due to its simple structure (one single linear layer per data point) the training and inference iteration are a lot faster, averaging respectively at `0.054 s/iter` and `0.0169/iter`. Surprisingly, the simple linear model outperforms SCINet in terms of MSE loss, yielding final results `Train Loss: 0.1665928 valid Loss: 0.1092133 Test Loss: 0.0748877` whereas SCINet is at `Train Loss: 0.2309196 valid Loss: 0.1293330 Test Loss: 0.0913697` . This counterintuive result will be further explained in our presentation.
+
+#### Hyperparameter Tuning
+
+We ran hyperparameter tuning for SCINet using Weights & Biases. We made the result available at [this link](https://wandb.ai/zifan/SCINet/sweeps/zduo6z7b?workspace=user-zifanwangsteven).  The set of hyperparameters we tuned for are as follows
+
+```json
+{
+    'lr': {
+        'values': [0.0001, 0.00025, 0.0005, 0.001]
+        },
+    'dropout': {
+        'values': [0, 0.3, 0.5, 0.7]
+    },
+    'hidden_size': { # hidden size in convulution 
+        'values': [1, 2, 3]
+    },
+    'kernel': { # kernel size for convulution
+        'values': [3, 5, 7]
+    },
+    'window_size': { # lookback window
+        'values': [8, 12, 14]
+    },
+    'stacks': { # number of SCINet Blocks to use
+        'values': [1, 2]
+    },
+    'decoder_layers': {
+        'values': [1, 2]
+    },
+    'levels': { # level of binary trees inside a SCINet Block
+        'values': [2, 3, 4, 5]
+    }
+}
+```
+
+According the Weights & Biases run, the most important factor is `stacks` where multiple stacks of SCINet tend to yield worse performance because of overfitting. Other top factors include`lr`, `window_size` and `kernel`. The best performing sweep has the combination `decode_layers=2, dropout=0, hidden_size=1, kernel=5, levels=3, lr=0.0005, stacks=1, window_size=12` and yields a better training loss of `0.132`
+
+#### Profiling
+
+#### Pruning
+
