@@ -101,8 +101,12 @@ In the pruning section, we attempted to prune each of the models, SCINet and DLi
 
 ![SCI_iter_pruning_finetuning](./pruning/SCI_iter_pruning_finetuning.png)
 
-![DLinear_iter_pruning_finetuning](./pruning/DLinear_iter_pruning_finetuning.png)
+![DLinear_pruning_finetuning](./pruning/DLinear_pruning_finetuning.png)
 
-Overall, the most remarkable results come from pruning the SCINet model using the L1 Unstructured pruning method with iterative pruning and finetuning. We were able to observe the best tradeoff between an increase in the validation loss and a decrease in overall model complexity when we pruned 50% of the total weights in each of the Conv1d layers of the SCINet model using the L1 unstructured pruning method. It seemed that pruning was less effective (and generally less needed) for the DLinear model due to the fact that DLinear is composed of a single linear layer whereas SCINet is a much more complex model.
+Overall, the most remarkable results come from pruning the SCINet model using the L1 Unstructured pruning method with iterative pruning and finetuning. We were able to observe the best tradeoff between an increase in the validation loss and a decrease in overall model complexity when we pruned 50% of the total weights in each of the Conv1d layers of the SCINet model using the L1 unstructured pruning method. It seemed that pruning was less effective (and generally less needed) for the DLinear model due to the fact that DLinear is composed of a single linear layer whereas SCINet is a much more complex model. 
+
+While the pruning reduced the overall model complexity from a space complexity perspective for both models, meaning that they required far less memory, the inference time for the newly pruned models occasionally increased or stayed constant as compared to the baseline model. Fortunately, both models are already quite fast, so the introduction of quantization was deemed unnecessary to further attempt to decrease model memory or increase model inference speed.
 
 #### Conclusions
+We were able to examine two state of the art models used for long sequence time series forecasting. We examined different hyperparameter configurations for the models and used profiling methods to examine the inference times of the models and look at performance bottlenecks. Finally, after deciding to focus on examining how we could deploy these models in a memory-constrained setting, we set out to prune their weights while preserving test accuracy as much as possible. After pruning, we were able to reduce the number of model weights for SCINet by as much as 50% while maintaining a validation error that remained close to the baseline error rate.
+
