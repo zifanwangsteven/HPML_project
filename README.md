@@ -86,7 +86,7 @@ The top operations for each case are respectively:
 
 ![SCINet_infer_operator](./profiling/SCINet_infer_operator.png)
 
-![SCINet_train_memory](./profiling/SCINet_train_memory.png)
+![DLinear_train_operator](./profiling/DLinear_train_operator.png)
 
 ![DLinear_infer_operator](./profiling/DLinear_infer_operator.png)
 
