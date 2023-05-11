@@ -93,4 +93,16 @@ The top operations for each case are respectively:
 Further interpretations of the results will be discussed in the presentation.
 
 #### Pruning
+In the pruning section, we attempted to prune each of the models, SCINet and DLinear. We approach the pruning problem by using both global pruning techniques and iterated pruning with finetuning. We used four different pruning methods: L_1 Unstructured, Random Structured, Random Unstructured, and L_n Structured with n=2 (effectively using the L_2 norm). The results are presented below for pruning and demonstrate how validation loss increases as we prune away more of the parameters of the models (as expected). We also plot the inference times on the test dataset alongside validation loss. Surprisingly, there is no clear trend evident in the inference times (increasing the pruning percentage in a  model's layer doesn't seem to directly lead to higher or lower inference times). 
 
+![SCI_global_pruning](./pruning/SCI_global_pruning.png)
+
+![DLinear_global_pruning](./pruning/DLinear_global_pruning.png)
+
+![SCI_iter_pruning_finetuning](./pruning/SCI_iter_pruning_finetuning.png)
+
+![DLinear_iter_pruning_finetuning](./pruning/DLinear_iter_pruning_finetuning.png)
+
+Overall, the most remarkable results come from pruning the SCINet model using the L1 Unstructured pruning method with iterative pruning and finetuning. We were able to observe the best tradeoff between an increase in the validation loss and a decrease in overall model complexity when we pruned 50% of the total weights in each of the Conv1d layers of the SCINet model using the L1 unstructured pruning method. It seemed that pruning was less effective (and generally less needed) for the DLinear model due to the fact that DLinear is composed of a single linear layer whereas SCINet is a much more complex model.
+
+#### Conclusions
