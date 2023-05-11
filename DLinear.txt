@@ -1,0 +1,247 @@
+exp/DLinear
+Epoch: 1 cost time: 0.6939113140106201
+--------start to validate-----------
+	speed: 0.0152s/iter; elapsed time: 0.3352s
+--------start to test-----------
+	speed: 0.0165s/iter; elapsed time: 0.3456s
+Epoch: 1, Steps: 64 | Train Loss: 0.4226428 valid Loss: 0.1420976 Test Loss: 0.1038917
+Validation loss decreased (inf --> 0.142098).  Saving model ...
+Updating learning rate to 9.5e-05
+Epoch: 2 cost time: 0.648230791091919
+--------start to validate-----------
+	speed: 0.0152s/iter; elapsed time: 0.3339s
+--------start to test-----------
+	speed: 0.0157s/iter; elapsed time: 0.3289s
+Epoch: 2, Steps: 64 | Train Loss: 0.2057285 valid Loss: 0.1321979 Test Loss: 0.0955237
+Validation loss decreased (0.142098 --> 0.132198).  Saving model ...
+Updating learning rate to 8.57375e-05
+Epoch: 3 cost time: 0.638939380645752
+--------start to validate-----------
+	speed: 0.0179s/iter; elapsed time: 0.3933s
+--------start to test-----------
+	speed: 0.0151s/iter; elapsed time: 0.3172s
+Epoch: 3, Steps: 64 | Train Loss: 0.1933167 valid Loss: 0.1249382 Test Loss: 0.0909151
+Validation loss decreased (0.132198 --> 0.124938).  Saving model ...
+Updating learning rate to 7.35091890625e-05
+Epoch: 4 cost time: 0.661632776260376
+--------start to validate-----------
+	speed: 0.0145s/iter; elapsed time: 0.3193s
+--------start to test-----------
+	speed: 0.0152s/iter; elapsed time: 0.3192s
+Epoch: 4, Steps: 64 | Train Loss: 0.1848176 valid Loss: 0.1198664 Test Loss: 0.0873611
+Validation loss decreased (0.124938 --> 0.119866).  Saving model ...
+Updating learning rate to 5.987369392383787e-05
+Epoch: 5 cost time: 0.6644997596740723
+--------start to validate-----------
+	speed: 0.0159s/iter; elapsed time: 0.3504s
+--------start to test-----------
+	speed: 0.0205s/iter; elapsed time: 0.4304s
+Epoch: 5, Steps: 64 | Train Loss: 0.1787070 valid Loss: 0.1161167 Test Loss: 0.0825284
+Validation loss decreased (0.119866 --> 0.116117).  Saving model ...
+Updating learning rate to 4.632912301597531e-05
+Epoch: 6 cost time: 1.0727214813232422
+--------start to validate-----------
+	speed: 0.0240s/iter; elapsed time: 0.5278s
+--------start to test-----------
+	speed: 0.0236s/iter; elapsed time: 0.4952s
+Epoch: 6, Steps: 64 | Train Loss: 0.1746510 valid Loss: 0.1135139 Test Loss: 0.0779113
+Validation loss decreased (0.116117 --> 0.113514).  Saving model ...
+Updating learning rate to 3.405616262881149e-05
+Epoch: 7 cost time: 1.0948646068572998
+--------start to validate-----------
+	speed: 0.0203s/iter; elapsed time: 0.4477s
+--------start to test-----------
+	speed: 0.0159s/iter; elapsed time: 0.3344s
+Epoch: 7, Steps: 64 | Train Loss: 0.1717552 valid Loss: 0.1121256 Test Loss: 0.0789264
+Validation loss decreased (0.113514 --> 0.112126).  Saving model ...
+Updating learning rate to 2.3782688525533222e-05
+Epoch: 8 cost time: 0.644742488861084
+--------start to validate-----------
+	speed: 0.0160s/iter; elapsed time: 0.3530s
+--------start to test-----------
+	speed: 0.0151s/iter; elapsed time: 0.3167s
+Epoch: 8, Steps: 64 | Train Loss: 0.1698038 valid Loss: 0.1111332 Test Loss: 0.0763118
+Validation loss decreased (0.112126 --> 0.111133).  Saving model ...
+Updating learning rate to 1.577792147882268e-05
+Epoch: 9 cost time: 0.6470150947570801
+--------start to validate-----------
+	speed: 0.0159s/iter; elapsed time: 0.3493s
+--------start to test-----------
+	speed: 0.0152s/iter; elapsed time: 0.3193s
+Epoch: 9, Steps: 64 | Train Loss: 0.1685287 valid Loss: 0.1102206 Test Loss: 0.0766761
+Validation loss decreased (0.111133 --> 0.110221).  Saving model ...
+Updating learning rate to 9.944025698709226e-06
+Epoch: 10 cost time: 0.6503086090087891
+--------start to validate-----------
+	speed: 0.0149s/iter; elapsed time: 0.3287s
+--------start to test-----------
+	speed: 0.0153s/iter; elapsed time: 0.3222s
+Epoch: 10, Steps: 64 | Train Loss: 0.1677328 valid Loss: 0.1098917 Test Loss: 0.0749674
+Validation loss decreased (0.110221 --> 0.109892).  Saving model ...
+Updating learning rate to 5.953855510552942e-06
+Epoch: 11 cost time: 0.6591498851776123
+--------start to validate-----------
+	speed: 0.0146s/iter; elapsed time: 0.3223s
+--------start to test-----------
+	speed: 0.0160s/iter; elapsed time: 0.3355s
+Epoch: 11, Steps: 64 | Train Loss: 0.1673662 valid Loss: 0.1096418 Test Loss: 0.0756809
+Validation loss decreased (0.109892 --> 0.109642).  Saving model ...
+Updating learning rate to 3.386553563803221e-06
+Epoch: 12 cost time: 0.6353116035461426
+--------start to validate-----------
+	speed: 0.0149s/iter; elapsed time: 0.3285s
+--------start to test-----------
+	speed: 0.0153s/iter; elapsed time: 0.3203s
+Epoch: 12, Steps: 64 | Train Loss: 0.1669647 valid Loss: 0.1094213 Test Loss: 0.0749899
+Validation loss decreased (0.109642 --> 0.109421).  Saving model ...
+Updating learning rate to 1.8299583806109232e-06
+Epoch: 13 cost time: 0.6524646282196045
+--------start to validate-----------
+	speed: 0.0266s/iter; elapsed time: 0.5852s
+--------start to test-----------
+	speed: 0.0223s/iter; elapsed time: 0.4693s
+Epoch: 13, Steps: 64 | Train Loss: 0.1667229 valid Loss: 0.1094375 Test Loss: 0.0749768
+EarlyStopping counter: 1 out of 7
+Updating learning rate to 9.393946474176003e-07
+Epoch: 14 cost time: 1.0841515064239502
+--------start to validate-----------
+	speed: 0.0327s/iter; elapsed time: 0.7201s
+--------start to test-----------
+	speed: 0.0465s/iter; elapsed time: 0.9770s
+Epoch: 14, Steps: 64 | Train Loss: 0.1666893 valid Loss: 0.1093092 Test Loss: 0.0748773
+Validation loss decreased (0.109421 --> 0.109309).  Saving model ...
+Updating learning rate to 4.5811926506061845e-07
+Epoch: 15 cost time: 1.1231772899627686
+--------start to validate-----------
+	speed: 0.0239s/iter; elapsed time: 0.5263s
+--------start to test-----------
+	speed: 0.0242s/iter; elapsed time: 0.5075s
+Epoch: 15, Steps: 64 | Train Loss: 0.1665849 valid Loss: 0.1091557 Test Loss: 0.0749114
+Validation loss decreased (0.109309 --> 0.109156).  Saving model ...
+Updating learning rate to 2.122426378698159e-07
+Epoch: 16 cost time: 0.6891913414001465
+--------start to validate-----------
+	speed: 0.0150s/iter; elapsed time: 0.3302s
+--------start to test-----------
+	speed: 0.0163s/iter; elapsed time: 0.3415s
+Epoch: 16, Steps: 64 | Train Loss: 0.1665408 valid Loss: 0.1093106 Test Loss: 0.0749074
+EarlyStopping counter: 1 out of 7
+Updating learning rate to 9.341364515150509e-08
+Epoch: 17 cost time: 0.664137601852417
+--------start to validate-----------
+	speed: 0.0155s/iter; elapsed time: 0.3406s
+--------start to test-----------
+	speed: 0.0155s/iter; elapsed time: 0.3245s
+Epoch: 17, Steps: 64 | Train Loss: 0.1665365 valid Loss: 0.1092557 Test Loss: 0.0748890
+EarlyStopping counter: 2 out of 7
+Updating learning rate to 3.905814462479256e-08
+Epoch: 18 cost time: 0.6818065643310547
+--------start to validate-----------
+	speed: 0.0152s/iter; elapsed time: 0.3346s
+--------start to test-----------
+	speed: 0.0160s/iter; elapsed time: 0.3350s
+Epoch: 18, Steps: 64 | Train Loss: 0.1666062 valid Loss: 0.1092635 Test Loss: 0.0748883
+EarlyStopping counter: 3 out of 7
+Updating learning rate to 1.5514454297379495e-08
+Epoch: 19 cost time: 0.6617166996002197
+--------start to validate-----------
+	speed: 0.0154s/iter; elapsed time: 0.3387s
+--------start to test-----------
+	speed: 0.0158s/iter; elapsed time: 0.3327s
+Epoch: 19, Steps: 64 | Train Loss: 0.1664521 valid Loss: 0.1092123 Test Loss: 0.0748875
+EarlyStopping counter: 4 out of 7
+Updating learning rate to 5.854435220485532e-09
+Epoch: 20 cost time: 0.6469912528991699
+--------start to validate-----------
+	speed: 0.0154s/iter; elapsed time: 0.3381s
+--------start to test-----------
+	speed: 0.0151s/iter; elapsed time: 0.3162s
+Epoch: 20, Steps: 64 | Train Loss: 0.1664633 valid Loss: 0.1093580 Test Loss: 0.0748878
+EarlyStopping counter: 5 out of 7
+Updating learning rate to 2.098732610196811e-09
+Epoch: 21 cost time: 0.6704196929931641
+--------start to validate-----------
+	speed: 0.0151s/iter; elapsed time: 0.3314s
+--------start to test-----------
+	speed: 0.0159s/iter; elapsed time: 0.3334s
+Epoch: 21, Steps: 64 | Train Loss: 0.1665788 valid Loss: 0.1092781 Test Loss: 0.0748877
+EarlyStopping counter: 6 out of 7
+Updating learning rate to 7.147477908725262e-10
+Epoch: 22 cost time: 0.6912610530853271
+--------start to validate-----------
+	speed: 0.0163s/iter; elapsed time: 0.3577s
+--------start to test-----------
+	speed: 0.0171s/iter; elapsed time: 0.3597s
+Epoch: 22, Steps: 64 | Train Loss: 0.1665593 valid Loss: 0.1091276 Test Loss: 0.0748877
+Validation loss decreased (0.109156 --> 0.109128).  Saving model ...
+Updating learning rate to 2.312448865431156e-10
+Epoch: 23 cost time: 0.7387409210205078
+--------start to validate-----------
+	speed: 0.0226s/iter; elapsed time: 0.4974s
+--------start to test-----------
+	speed: 0.0246s/iter; elapsed time: 0.5164s
+Epoch: 23, Steps: 64 | Train Loss: 0.1665315 valid Loss: 0.1093418 Test Loss: 0.0748877
+EarlyStopping counter: 1 out of 7
+Updating learning rate to 7.107470400532047e-11
+Epoch: 24 cost time: 1.1058199405670166
+--------start to validate-----------
+	speed: 0.0258s/iter; elapsed time: 0.5670s
+--------start to test-----------
+	speed: 0.0244s/iter; elapsed time: 0.5132s
+Epoch: 24, Steps: 64 | Train Loss: 0.1664821 valid Loss: 0.1091484 Test Loss: 0.0748877
+EarlyStopping counter: 2 out of 7
+Updating learning rate to 2.0753033477680563e-11
+Epoch: 25 cost time: 0.8537566661834717
+--------start to validate-----------
+	speed: 0.0155s/iter; elapsed time: 0.3403s
+--------start to test-----------
+	speed: 0.0160s/iter; elapsed time: 0.3366s
+Epoch: 25, Steps: 64 | Train Loss: 0.1665787 valid Loss: 0.1091784 Test Loss: 0.0748877
+EarlyStopping counter: 3 out of 7
+Updating learning rate to 5.756675097356936e-12
+Epoch: 26 cost time: 0.6737310886383057
+--------start to validate-----------
+	speed: 0.0161s/iter; elapsed time: 0.3538s
+--------start to test-----------
+	speed: 0.0154s/iter; elapsed time: 0.3231s
+Epoch: 26, Steps: 64 | Train Loss: 0.1666685 valid Loss: 0.1092790 Test Loss: 0.0748877
+EarlyStopping counter: 4 out of 7
+Updating learning rate to 1.5169995654640846e-12
+Epoch: 27 cost time: 0.6724338531494141
+--------start to validate-----------
+	speed: 0.0151s/iter; elapsed time: 0.3326s
+--------start to test-----------
+	speed: 0.0158s/iter; elapsed time: 0.3325s
+Epoch: 27, Steps: 64 | Train Loss: 0.1665628 valid Loss: 0.1093100 Test Loss: 0.0748877
+EarlyStopping counter: 5 out of 7
+Updating learning rate to 3.7977187535580593e-13
+Epoch: 28 cost time: 0.6846849918365479
+--------start to validate-----------
+	speed: 0.0150s/iter; elapsed time: 0.3299s
+--------start to test-----------
+	speed: 0.0163s/iter; elapsed time: 0.3421s
+Epoch: 28, Steps: 64 | Train Loss: 0.1666131 valid Loss: 0.1094689 Test Loss: 0.0748877
+EarlyStopping counter: 6 out of 7
+Updating learning rate to 9.031996222344756e-14
+Epoch: 29 cost time: 0.6983566284179688
+--------start to validate-----------
+	speed: 0.0155s/iter; elapsed time: 0.3403s
+--------start to test-----------
+	speed: 0.0155s/iter; elapsed time: 0.3259s
+Epoch: 29, Steps: 64 | Train Loss: 0.1665928 valid Loss: 0.1092133 Test Loss: 0.0748877
+EarlyStopping counter: 7 out of 7
+Early stopping
+save model in  exp/DLinear/DLinear96.bin
+DLinear(
+  (decompsition): series_decomp(
+    (moving_avg): moving_avg(
+      (avg): AvgPool1d(kernel_size=(25,), stride=(1,), padding=(0,))
+    )
+  )
+  (Linear_Seasonal): ModuleList(
+    (0): Linear(in_features=384, out_features=96, bias=True)
+  )
+  (Linear_Trend): ModuleList(
+    (0): Linear(in_features=384, out_features=96, bias=True)
+  )
+)
