@@ -1,0 +1,591 @@
+exp/SCI
+Epoch: 1 cost time: 5.461750268936157
+--------start to validate-----------
+	speed: 0.0345s/iter; elapsed time: 0.7597s
+--------start to test-----------
+	speed: 0.0343s/iter; elapsed time: 0.7204s
+Epoch: 1, Steps: 64 | Train Loss: 0.8148220 valid Loss: 0.2698785 Test Loss: 0.2589730
+Validation loss decreased (inf --> 0.269879).  Saving model ...
+Updating learning rate to 9.5e-05
+Epoch: 2 cost time: 6.624256610870361
+--------start to validate-----------
+	speed: 0.0360s/iter; elapsed time: 0.7910s
+--------start to test-----------
+	speed: 0.0349s/iter; elapsed time: 0.7326s
+Epoch: 2, Steps: 64 | Train Loss: 0.3719758 valid Loss: 0.1927885 Test Loss: 0.1588904
+Validation loss decreased (0.269879 --> 0.192788).  Saving model ...
+Updating learning rate to 8.57375e-05
+Epoch: 3 cost time: 5.404948472976685
+--------start to validate-----------
+	speed: 0.0441s/iter; elapsed time: 0.9705s
+--------start to test-----------
+	speed: 0.0545s/iter; elapsed time: 1.1437s
+Epoch: 3, Steps: 64 | Train Loss: 0.3108123 valid Loss: 0.1630211 Test Loss: 0.1182583
+Validation loss decreased (0.192788 --> 0.163021).  Saving model ...
+Updating learning rate to 7.35091890625e-05
+Epoch: 4 cost time: 6.105665683746338
+--------start to validate-----------
+	speed: 0.0329s/iter; elapsed time: 0.7242s
+--------start to test-----------
+	speed: 0.0354s/iter; elapsed time: 0.7440s
+Epoch: 4, Steps: 64 | Train Loss: 0.2812243 valid Loss: 0.1494703 Test Loss: 0.1034250
+Validation loss decreased (0.163021 --> 0.149470).  Saving model ...
+Updating learning rate to 5.987369392383787e-05
+Epoch: 5 cost time: 5.968675851821899
+--------start to validate-----------
+	speed: 0.0514s/iter; elapsed time: 1.1300s
+--------start to test-----------
+	speed: 0.0470s/iter; elapsed time: 0.9880s
+Epoch: 5, Steps: 64 | Train Loss: 0.2633546 valid Loss: 0.1420762 Test Loss: 0.1027219
+Validation loss decreased (0.149470 --> 0.142076).  Saving model ...
+Updating learning rate to 4.632912301597531e-05
+Epoch: 6 cost time: 5.398486614227295
+--------start to validate-----------
+	speed: 0.0358s/iter; elapsed time: 0.7876s
+--------start to test-----------
+	speed: 0.0350s/iter; elapsed time: 0.7348s
+Epoch: 6, Steps: 64 | Train Loss: 0.2523700 valid Loss: 0.1374473 Test Loss: 0.0955658
+Validation loss decreased (0.142076 --> 0.137447).  Saving model ...
+Updating learning rate to 3.405616262881149e-05
+Epoch: 7 cost time: 6.768327236175537
+--------start to validate-----------
+	speed: 0.0337s/iter; elapsed time: 0.7423s
+--------start to test-----------
+	speed: 0.0352s/iter; elapsed time: 0.7397s
+Epoch: 7, Steps: 64 | Train Loss: 0.2453062 valid Loss: 0.1342762 Test Loss: 0.0908401
+Validation loss decreased (0.137447 --> 0.134276).  Saving model ...
+Updating learning rate to 2.3782688525533222e-05
+Epoch: 8 cost time: 5.4712865352630615
+--------start to validate-----------
+	speed: 0.0335s/iter; elapsed time: 0.7359s
+--------start to test-----------
+	speed: 0.0369s/iter; elapsed time: 0.7740s
+Epoch: 8, Steps: 64 | Train Loss: 0.2398128 valid Loss: 0.1322995 Test Loss: 0.0928902
+Validation loss decreased (0.134276 --> 0.132300).  Saving model ...
+Updating learning rate to 1.577792147882268e-05
+Epoch: 9 cost time: 6.697087526321411
+--------start to validate-----------
+	speed: 0.0336s/iter; elapsed time: 0.7395s
+--------start to test-----------
+	speed: 0.0345s/iter; elapsed time: 0.7245s
+Epoch: 9, Steps: 64 | Train Loss: 0.2368203 valid Loss: 0.1311411 Test Loss: 0.0911132
+Validation loss decreased (0.132300 --> 0.131141).  Saving model ...
+Updating learning rate to 9.944025698709226e-06
+Epoch: 10 cost time: 5.3532555103302
+--------start to validate-----------
+	speed: 0.0353s/iter; elapsed time: 0.7774s
+--------start to test-----------
+	speed: 0.0481s/iter; elapsed time: 1.0097s
+Epoch: 10, Steps: 64 | Train Loss: 0.2347235 valid Loss: 0.1303961 Test Loss: 0.0914389
+Validation loss decreased (0.131141 --> 0.130396).  Saving model ...
+Updating learning rate to 5.953855510552942e-06
+Epoch: 11 cost time: 6.147136926651001
+--------start to validate-----------
+	speed: 0.0326s/iter; elapsed time: 0.7178s
+--------start to test-----------
+	speed: 0.0320s/iter; elapsed time: 0.6715s
+Epoch: 11, Steps: 64 | Train Loss: 0.2331311 valid Loss: 0.1300707 Test Loss: 0.0919071
+Validation loss decreased (0.130396 --> 0.130071).  Saving model ...
+Updating learning rate to 3.386553563803221e-06
+Epoch: 12 cost time: 5.035978317260742
+--------start to validate-----------
+	speed: 0.0465s/iter; elapsed time: 1.0221s
+--------start to test-----------
+	speed: 0.0501s/iter; elapsed time: 1.0522s
+Epoch: 12, Steps: 64 | Train Loss: 0.2321739 valid Loss: 0.1295738 Test Loss: 0.0916283
+Validation loss decreased (0.130071 --> 0.129574).  Saving model ...
+Updating learning rate to 1.8299583806109232e-06
+Epoch: 13 cost time: 5.753767013549805
+--------start to validate-----------
+	speed: 0.0337s/iter; elapsed time: 0.7406s
+--------start to test-----------
+	speed: 0.0342s/iter; elapsed time: 0.7178s
+Epoch: 13, Steps: 64 | Train Loss: 0.2321746 valid Loss: 0.1295599 Test Loss: 0.0916478
+Validation loss decreased (0.129574 --> 0.129560).  Saving model ...
+Updating learning rate to 9.393946474176003e-07
+Epoch: 14 cost time: 5.86997127532959
+--------start to validate-----------
+	speed: 0.0529s/iter; elapsed time: 1.1627s
+--------start to test-----------
+	speed: 0.0455s/iter; elapsed time: 0.9563s
+Epoch: 14, Steps: 64 | Train Loss: 0.2316996 valid Loss: 0.1295533 Test Loss: 0.0914220
+Validation loss decreased (0.129560 --> 0.129553).  Saving model ...
+Updating learning rate to 4.5811926506061845e-07
+Epoch: 15 cost time: 5.203181266784668
+--------start to validate-----------
+	speed: 0.0330s/iter; elapsed time: 0.7251s
+--------start to test-----------
+	speed: 0.0328s/iter; elapsed time: 0.6883s
+Epoch: 15, Steps: 64 | Train Loss: 0.2315798 valid Loss: 0.1294583 Test Loss: 0.0914082
+Validation loss decreased (0.129553 --> 0.129458).  Saving model ...
+Updating learning rate to 2.122426378698159e-07
+Epoch: 16 cost time: 6.238373517990112
+--------start to validate-----------
+	speed: 0.0432s/iter; elapsed time: 0.9504s
+--------start to test-----------
+	speed: 0.0352s/iter; elapsed time: 0.7382s
+Epoch: 16, Steps: 64 | Train Loss: 0.2314266 valid Loss: 0.1293934 Test Loss: 0.0913978
+Validation loss decreased (0.129458 --> 0.129393).  Saving model ...
+Updating learning rate to 9.341364515150509e-08
+Epoch: 17 cost time: 5.254934549331665
+--------start to validate-----------
+	speed: 0.0337s/iter; elapsed time: 0.7404s
+--------start to test-----------
+	speed: 0.0335s/iter; elapsed time: 0.7044s
+Epoch: 17, Steps: 64 | Train Loss: 0.2312491 valid Loss: 0.1293133 Test Loss: 0.0913759
+Validation loss decreased (0.129393 --> 0.129313).  Saving model ...
+Updating learning rate to 3.905814462479256e-08
+Epoch: 18 cost time: 6.470908880233765
+--------start to validate-----------
+	speed: 0.0321s/iter; elapsed time: 0.7064s
+--------start to test-----------
+	speed: 0.0352s/iter; elapsed time: 0.7395s
+Epoch: 18, Steps: 64 | Train Loss: 0.2314865 valid Loss: 0.1294198 Test Loss: 0.0913769
+EarlyStopping counter: 1 out of 7
+Updating learning rate to 1.5514454297379495e-08
+Epoch: 19 cost time: 5.235137939453125
+--------start to validate-----------
+	speed: 0.0330s/iter; elapsed time: 0.7267s
+--------start to test-----------
+	speed: 0.0338s/iter; elapsed time: 0.7104s
+Epoch: 19, Steps: 64 | Train Loss: 0.2315191 valid Loss: 0.1294980 Test Loss: 0.0913684
+EarlyStopping counter: 2 out of 7
+Updating learning rate to 5.854435220485532e-09
+Epoch: 20 cost time: 7.087276935577393
+--------start to validate-----------
+	speed: 0.0350s/iter; elapsed time: 0.7709s
+--------start to test-----------
+	speed: 0.0364s/iter; elapsed time: 0.7636s
+Epoch: 20, Steps: 64 | Train Loss: 0.2312747 valid Loss: 0.1294114 Test Loss: 0.0913696
+EarlyStopping counter: 3 out of 7
+Updating learning rate to 2.098732610196811e-09
+Epoch: 21 cost time: 5.476350545883179
+--------start to validate-----------
+	speed: 0.0421s/iter; elapsed time: 0.9256s
+--------start to test-----------
+	speed: 0.0531s/iter; elapsed time: 1.1160s
+Epoch: 21, Steps: 64 | Train Loss: 0.2316253 valid Loss: 0.1293470 Test Loss: 0.0913697
+EarlyStopping counter: 4 out of 7
+Updating learning rate to 7.147477908725262e-10
+Epoch: 22 cost time: 5.985524654388428
+--------start to validate-----------
+	speed: 0.0346s/iter; elapsed time: 0.7602s
+--------start to test-----------
+	speed: 0.0347s/iter; elapsed time: 0.7277s
+Epoch: 22, Steps: 64 | Train Loss: 0.2318332 valid Loss: 0.1293371 Test Loss: 0.0913697
+EarlyStopping counter: 5 out of 7
+Updating learning rate to 2.312448865431156e-10
+Epoch: 23 cost time: 5.697703123092651
+--------start to validate-----------
+	speed: 0.0518s/iter; elapsed time: 1.1405s
+--------start to test-----------
+	speed: 0.0516s/iter; elapsed time: 1.0830s
+Epoch: 23, Steps: 64 | Train Loss: 0.2314791 valid Loss: 0.1294813 Test Loss: 0.0913697
+EarlyStopping counter: 6 out of 7
+Updating learning rate to 7.107470400532047e-11
+Epoch: 24 cost time: 5.449645042419434
+--------start to validate-----------
+	speed: 0.0352s/iter; elapsed time: 0.7747s
+--------start to test-----------
+	speed: 0.0554s/iter; elapsed time: 1.1631s
+Epoch: 24, Steps: 64 | Train Loss: 0.2312150 valid Loss: 0.1292622 Test Loss: 0.0913697
+Validation loss decreased (0.129313 --> 0.129262).  Saving model ...
+Updating learning rate to 2.0753033477680563e-11
+Epoch: 25 cost time: 7.520495176315308
+--------start to validate-----------
+	speed: 0.0359s/iter; elapsed time: 0.7901s
+--------start to test-----------
+	speed: 0.0362s/iter; elapsed time: 0.7594s
+Epoch: 25, Steps: 64 | Train Loss: 0.2309317 valid Loss: 0.1294247 Test Loss: 0.0913697
+EarlyStopping counter: 1 out of 7
+Updating learning rate to 5.756675097356936e-12
+Epoch: 26 cost time: 5.433457374572754
+--------start to validate-----------
+	speed: 0.0369s/iter; elapsed time: 0.8124s
+--------start to test-----------
+	speed: 0.0362s/iter; elapsed time: 0.7596s
+Epoch: 26, Steps: 64 | Train Loss: 0.2309403 valid Loss: 0.1294083 Test Loss: 0.0913697
+EarlyStopping counter: 2 out of 7
+Updating learning rate to 1.5169995654640846e-12
+Epoch: 27 cost time: 6.682629346847534
+--------start to validate-----------
+	speed: 0.0346s/iter; elapsed time: 0.7615s
+--------start to test-----------
+	speed: 0.0353s/iter; elapsed time: 0.7407s
+Epoch: 27, Steps: 64 | Train Loss: 0.2317356 valid Loss: 0.1294131 Test Loss: 0.0913697
+EarlyStopping counter: 3 out of 7
+Updating learning rate to 3.7977187535580593e-13
+Epoch: 28 cost time: 5.439886808395386
+--------start to validate-----------
+	speed: 0.0562s/iter; elapsed time: 1.2366s
+--------start to test-----------
+	speed: 0.0540s/iter; elapsed time: 1.1339s
+Epoch: 28, Steps: 64 | Train Loss: 0.2313695 valid Loss: 0.1295015 Test Loss: 0.0913697
+EarlyStopping counter: 4 out of 7
+Updating learning rate to 9.031996222344756e-14
+Epoch: 29 cost time: 5.794790267944336
+--------start to validate-----------
+	speed: 0.0345s/iter; elapsed time: 0.7580s
+--------start to test-----------
+	speed: 0.0326s/iter; elapsed time: 0.6847s
+Epoch: 29, Steps: 64 | Train Loss: 0.2315528 valid Loss: 0.1294109 Test Loss: 0.0913697
+EarlyStopping counter: 5 out of 7
+Updating learning rate to 2.040648952738271e-14
+Epoch: 30 cost time: 6.117992401123047
+--------start to validate-----------
+	speed: 0.0518s/iter; elapsed time: 1.1392s
+--------start to test-----------
+	speed: 0.0367s/iter; elapsed time: 0.7715s
+Epoch: 30, Steps: 64 | Train Loss: 0.2315923 valid Loss: 0.1292424 Test Loss: 0.0913697
+Validation loss decreased (0.129262 --> 0.129242).  Saving model ...
+Updating learning rate to 4.380023688571919e-15
+Epoch: 31 cost time: 5.31933856010437
+--------start to validate-----------
+	speed: 0.0344s/iter; elapsed time: 0.7562s
+--------start to test-----------
+	speed: 0.0358s/iter; elapsed time: 0.7513s
+Epoch: 31, Steps: 64 | Train Loss: 0.2313578 valid Loss: 0.1293841 Test Loss: 0.0913697
+EarlyStopping counter: 1 out of 7
+Updating learning rate to 8.931167270280683e-16
+Epoch: 32 cost time: 6.53313136100769
+--------start to validate-----------
+	speed: 0.0357s/iter; elapsed time: 0.7856s
+--------start to test-----------
+	speed: 0.0356s/iter; elapsed time: 0.7469s
+Epoch: 32, Steps: 64 | Train Loss: 0.2310695 valid Loss: 0.1294385 Test Loss: 0.0913697
+EarlyStopping counter: 2 out of 7
+Updating learning rate to 1.7300696698732482e-16
+Epoch: 33 cost time: 5.3839170932769775
+--------start to validate-----------
+	speed: 0.0345s/iter; elapsed time: 0.7589s
+--------start to test-----------
+	speed: 0.0342s/iter; elapsed time: 0.7176s
+Epoch: 33, Steps: 64 | Train Loss: 0.2314976 valid Loss: 0.1293878 Test Loss: 0.0913697
+EarlyStopping counter: 3 out of 7
+Updating learning rate to 3.1837764576938665e-17
+Epoch: 34 cost time: 6.547361373901367
+--------start to validate-----------
+	speed: 0.0366s/iter; elapsed time: 0.8061s
+--------start to test-----------
+	speed: 0.0347s/iter; elapsed time: 0.7295s
+Epoch: 34, Steps: 64 | Train Loss: 0.2312081 valid Loss: 0.1293050 Test Loss: 0.0913697
+EarlyStopping counter: 4 out of 7
+Updating learning rate to 5.566024925830254e-18
+Epoch: 35 cost time: 5.260419607162476
+--------start to validate-----------
+	speed: 0.0364s/iter; elapsed time: 0.8019s
+--------start to test-----------
+	speed: 0.0461s/iter; elapsed time: 0.9672s
+Epoch: 35, Steps: 64 | Train Loss: 0.2314873 valid Loss: 0.1293291 Test Loss: 0.0913697
+EarlyStopping counter: 5 out of 7
+Updating learning rate to 9.244242550412587e-19
+Epoch: 36 cost time: 6.25590181350708
+--------start to validate-----------
+	speed: 0.0350s/iter; elapsed time: 0.7706s
+--------start to test-----------
+	speed: 0.0351s/iter; elapsed time: 0.7364s
+Epoch: 36, Steps: 64 | Train Loss: 0.2315802 valid Loss: 0.1293196 Test Loss: 0.0913697
+EarlyStopping counter: 6 out of 7
+Updating learning rate to 1.458549330916013e-19
+Epoch: 37 cost time: 5.554503917694092
+--------start to validate-----------
+	speed: 0.0520s/iter; elapsed time: 1.1430s
+--------start to test-----------
+	speed: 0.0501s/iter; elapsed time: 1.0518s
+Epoch: 37, Steps: 64 | Train Loss: 0.2309196 valid Loss: 0.1293330 Test Loss: 0.0913697
+EarlyStopping counter: 7 out of 7
+Early stopping
+save model in  exp/SCI/SCI96.bin
+SCINet(
+  (blocks1): EncoderTree(
+    (SCINet_Tree): SCINet_Tree(
+      (workingblock): LevelSCINet(
+        (interact): InteractorLevel(
+          (level): Interactor(
+            (split): Splitting()
+            (phi): Sequential(
+              (0): ReplicationPad1d((3, 3))
+              (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+              (2): LeakyReLU(negative_slope=0.01, inplace=True)
+              (3): Dropout(p=0.5, inplace=False)
+              (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+              (5): Tanh()
+            )
+            (psi): Sequential(
+              (0): ReplicationPad1d((3, 3))
+              (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+              (2): LeakyReLU(negative_slope=0.01, inplace=True)
+              (3): Dropout(p=0.5, inplace=False)
+              (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+              (5): Tanh()
+            )
+            (P): Sequential(
+              (0): ReplicationPad1d((3, 3))
+              (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+              (2): LeakyReLU(negative_slope=0.01, inplace=True)
+              (3): Dropout(p=0.5, inplace=False)
+              (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+              (5): Tanh()
+            )
+            (U): Sequential(
+              (0): ReplicationPad1d((3, 3))
+              (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+              (2): LeakyReLU(negative_slope=0.01, inplace=True)
+              (3): Dropout(p=0.5, inplace=False)
+              (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+              (5): Tanh()
+            )
+          )
+        )
+      )
+      (SCINet_Tree_odd): SCINet_Tree(
+        (workingblock): LevelSCINet(
+          (interact): InteractorLevel(
+            (level): Interactor(
+              (split): Splitting()
+              (phi): Sequential(
+                (0): ReplicationPad1d((3, 3))
+                (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                (3): Dropout(p=0.5, inplace=False)
+                (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                (5): Tanh()
+              )
+              (psi): Sequential(
+                (0): ReplicationPad1d((3, 3))
+                (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                (3): Dropout(p=0.5, inplace=False)
+                (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                (5): Tanh()
+              )
+              (P): Sequential(
+                (0): ReplicationPad1d((3, 3))
+                (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                (3): Dropout(p=0.5, inplace=False)
+                (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                (5): Tanh()
+              )
+              (U): Sequential(
+                (0): ReplicationPad1d((3, 3))
+                (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                (3): Dropout(p=0.5, inplace=False)
+                (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                (5): Tanh()
+              )
+            )
+          )
+        )
+        (SCINet_Tree_odd): SCINet_Tree(
+          (workingblock): LevelSCINet(
+            (interact): InteractorLevel(
+              (level): Interactor(
+                (split): Splitting()
+                (phi): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (psi): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (P): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (U): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+              )
+            )
+          )
+        )
+        (SCINet_Tree_even): SCINet_Tree(
+          (workingblock): LevelSCINet(
+            (interact): InteractorLevel(
+              (level): Interactor(
+                (split): Splitting()
+                (phi): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (psi): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (P): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (U): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+              )
+            )
+          )
+        )
+      )
+      (SCINet_Tree_even): SCINet_Tree(
+        (workingblock): LevelSCINet(
+          (interact): InteractorLevel(
+            (level): Interactor(
+              (split): Splitting()
+              (phi): Sequential(
+                (0): ReplicationPad1d((3, 3))
+                (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                (3): Dropout(p=0.5, inplace=False)
+                (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                (5): Tanh()
+              )
+              (psi): Sequential(
+                (0): ReplicationPad1d((3, 3))
+                (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                (3): Dropout(p=0.5, inplace=False)
+                (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                (5): Tanh()
+              )
+              (P): Sequential(
+                (0): ReplicationPad1d((3, 3))
+                (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                (3): Dropout(p=0.5, inplace=False)
+                (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                (5): Tanh()
+              )
+              (U): Sequential(
+                (0): ReplicationPad1d((3, 3))
+                (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                (3): Dropout(p=0.5, inplace=False)
+                (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                (5): Tanh()
+              )
+            )
+          )
+        )
+        (SCINet_Tree_odd): SCINet_Tree(
+          (workingblock): LevelSCINet(
+            (interact): InteractorLevel(
+              (level): Interactor(
+                (split): Splitting()
+                (phi): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (psi): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (P): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (U): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+              )
+            )
+          )
+        )
+        (SCINet_Tree_even): SCINet_Tree(
+          (workingblock): LevelSCINet(
+            (interact): InteractorLevel(
+              (level): Interactor(
+                (split): Splitting()
+                (phi): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (psi): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (P): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+                (U): Sequential(
+                  (0): ReplicationPad1d((3, 3))
+                  (1): Conv1d(1, 1, kernel_size=(5,), stride=(1,))
+                  (2): LeakyReLU(negative_slope=0.01, inplace=True)
+                  (3): Dropout(p=0.5, inplace=False)
+                  (4): Conv1d(1, 1, kernel_size=(3,), stride=(1,))
+                  (5): Tanh()
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+  (projection1): Conv1d(384, 96, kernel_size=(1,), stride=(1,), bias=False)
+  (div_projection): ModuleList()
+)
