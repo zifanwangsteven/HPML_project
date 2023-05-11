@@ -78,5 +78,19 @@ According the Weights & Biases run, the most important factor is `stacks` where 
 
 #### Profiling
 
+Pytorch profiler was run for 20 iterations for each model (once for training loop, once for inference). The respective results are shown in the folder `profiling`. 
+
+The top operations for each case are respectively:
+
+![SCINet_train_operator](./profiling/SCINet_train_operator.png)
+
+![SCINet_infer_operator](./profiling/SCINet_infer_operator.png)
+
+![SCINet_train_memory](./profiling/SCINet_train_memory.png)
+
+![DLinear_infer_operator](./profiling/DLinear_infer_operator.png)
+
+Further interpretations of the results will be discussed in the presentation.
+
 #### Pruning
 
